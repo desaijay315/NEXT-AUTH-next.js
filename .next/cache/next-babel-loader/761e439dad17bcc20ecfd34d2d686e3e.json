@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { GitHubCMS } from '@arunoda/git-cms';\nconst githubCms = new GitHubCMS({\n  owner: process.env.GITHUB_REPO_OWNER,\n  repo: process.env.GITHUB_REPO_NAME,\n  token: process.env.GITHUB_PAT\n});\nexport default githubCms;","map":null,"metadata":{},"sourceType":"module"}
